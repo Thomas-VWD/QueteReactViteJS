@@ -3,7 +3,7 @@ function NavBar({ pokemonIndex, setPokemonIndex }) {
     const decrementPokemonIndex = () => setPokemonIndex(pokemonIndex - 1);
     return (
         <div>
-            <p>Pokedex !{pokemonIndex}</p>
+            <p>Pokedex !</p>
             <button onClick={decrementPokemonIndex}>Previous Pokemon</button>
             <button onClick={incrementPokemonIndex}>Next Pokemon</button>
         </div>
