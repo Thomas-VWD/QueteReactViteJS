@@ -38,8 +38,8 @@ function App() {
       <PokemonCard pokemon={pokemonList[pokemonIndex]} />
       <div>
         <p>Pokedex !</p>
-        <button onClick={incrementPokemonIndex}>Next Pokemon</button>
         <button onClick={decrementPokemonIndex}>Previous Pokemon</button>
+        <button onClick={incrementPokemonIndex}>Next Pokemon</button>
       </div>
     </div>
   )
