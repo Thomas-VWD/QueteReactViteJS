@@ -1,6 +1,7 @@
 import './App.css'
 import PokemonCard from './components/PokemonCard'
 import { useState } from 'react';
+import './style.scss'
 
 function App() {
   const pokemonList = [
