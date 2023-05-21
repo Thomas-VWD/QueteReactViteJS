@@ -7,7 +7,6 @@ function NavBar({ setPokemonIndex, pokemonList }) {
     <button
       key={index}
       onClick={() => {
-        if (pokemon.name === "pikachu") alert("pika pika, pikaaaachuuuu !!!");
         handleClickPokemon(index);
       }}
     >
